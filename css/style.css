@@ -1,9 +1,42 @@
-body{
+
+h1,h2{
     font-family: 'Bebas Neue', cursive;
+}
+p{
     font-family: 'Roboto', sans-serif;
+}
+/* button-start*/
+
+.btn-custom{
+    font-size: 13px;
+    font-weight:400;
+    background-color: #3b4ce6 !important;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+.btn-custom:hover{
+       background-color: #1f34f0;
+}
+/* button-end*/
+
+.nike-content {
+    color: #FA804C;
+}
+.banner-content-area{
+    padding: 90px;
+}
+.banner-content-area h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    font-weight: 600;
 }
 
 /* casual-shoes-css-section-start */
+
+.casual-shoes,.formal-shoes{
+    margin-top: 100px;
+}
 
 .card-img-top{
     background-color: #ebe6e6;
@@ -15,6 +48,14 @@ body{
 }
 .card-footer{
     border-top: none;
+}
+.card-footer h3{
+    color: #FA804C;
+    font-size: 35px;
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* casual-shoes-css-section-start */
 
