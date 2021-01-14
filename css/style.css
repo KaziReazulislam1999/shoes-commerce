@@ -11,12 +11,16 @@ h3{
     font-size: 24px;
 }
 
+.menu-bg{
+    position: relative;
+    margin-left: 100px;
+    top:-8px;
+}
+
 /* button-start*/
 
 .btn-custom{
     font-size: 13px;
-    /* height: 50px;
-    width: 140px; */
     font-weight:500;
     
     background-color: #3b4ce6 !important;
@@ -32,6 +36,10 @@ h3{
 
 /* banner-top-section-start */
 
+header, .banner-top{
+    background-color: #FFF9F4;
+}
+
 .nike-content {
     color: #FA804C;
 }
@@ -44,7 +52,7 @@ h3{
 /* banner-top-section-end */
 
 
-/* casual-shoes-css-section-start */
+/* casual-shoes-section-start */
 
 .casual-shoes,.formal-shoes{
     margin-top: 100px;
@@ -74,12 +82,12 @@ h3{
     align-items: center;
     justify-content: center;
 }
-/* casual-shoes-css-section-start */
+/* casual-shoes-section-start */
 
 
-/* exchange-section-css-start */
+/* exchange-section-start */
 
-#exchange{
+#about-us{
     margin-top: 100px;
 }
 
@@ -89,17 +97,39 @@ h3{
     width: 80px;
 }
 
-/* exchange-section-css-end */
+/* exchange-section-end */
 
 
-.custom-style{
-    border-radius: 20px;
-}
+/* contact-section-start */
 
-.contact-img img{
-    
-}
 .contact-img img:hover{
     transform: rotate(360deg);
     transition: 2s;
 }
+
+.custom-style{
+    border-radius: 20px;
+}
+/* contact-section-end */
+
+  
+  /* about-section-start */
+  .content-inner{
+      padding:0px 20px 0px 20px;
+  }
+  /* about-section-end */
+
+  @media (max-width: 768px) {
+    .reverse {
+      flex-direction: column-reverse;
+      
+    }
+  }
+
+  @media (max-width: 768px) {
+    .left-content-wrapper {
+     text-align: center;
+      
+    }
+  }
+

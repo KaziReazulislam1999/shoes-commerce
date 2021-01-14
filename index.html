@@ -6,6 +6,9 @@
     <!-- Title -->
     <title>Shoes Commerce</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo-icon/favicon.png">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -24,7 +27,13 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="img/logo-icon/Logo.png" alt="logo" class="img-fluid" width="300px"></a>
+              <a class="navbar-brand" href="#"> <img src="img/logo-icon/Logo.png" alt="logo" class="img-fluid" width="380px"></a>
+
+
+               <div class="menu-bg">
+                 <img src="img/logo-icon/dotted.jpg" alt="dotted" width="150px">
+               </div>
+
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -34,13 +43,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="nav-link" href="#product">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#about-us">About us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="#contact">Contact us</a>
                   </li>
                 </ul>
               </div>
@@ -48,10 +57,11 @@
           </nav>
     </header>
 
+      <!-- Banner-Top-Section-Start -->
       <section class="banner-top">
 
         <div class="container">
-            <div class="row">
+            <div class="row reverse">
                 <div class="col-md-6"><img src="img/photos/banner-top.png" alt="banner-top" class="img-fluid"></div>
                 <div class="col-md-6 d-flex align-items-center justify-content-center gy-5">
                     <div class="banner-content-area">
@@ -74,8 +84,11 @@
         </div>
 
       </section>
+      <!-- Banner-Top-Section-End -->
 
-      <section class="casual-shoes">
+
+      <!-- Product-Section-Start -->
+      <section id="product" class="casual-shoes">
            
         <div class="container">
 
@@ -123,20 +136,12 @@
               </div>
             </div>
           </div> 
-
-            
         </div>
-
-
-
       </section>
 
       <section class="formal-shoes">
-           
         <div class="container">
-
             <h2 class="text-uppercase">Formal shoes</h2>
-            
           <div class="row row-cols-1 row-cols-md-3 g-5">
             <div class="col">
               <div class="card h-100">
@@ -178,84 +183,102 @@
               </div>
             </div>
           </div> 
-
-            
-        </div>
-
-      </section>
-
-      <section id="exchange">
-
-        <div class="container">
-            
-                <div class="row p-3">
-                    <div class="col-md-4 ">
-
-                        <div class="left-content-wrapper">
-
-                            <div class="left-content d-flex">
-                                <img src="img/logo-icon/image 12.png" alt="" >
-                                <div class="content-inner">
-                                    <h3>Find the Perfect Fit</h3>
-                                    <p>Everybody is different, which is why we offer styles for every body.</p>
-                                </div>
-    
-                            </div>
-                            <div class="left-content d-flex">
-                                <img src="img/logo-icon/image 13.png" alt="">
-                                <div class="content-inner">
-                                    <h3>Find the Perfect Fit</h3>
-                                    <p>Everybody is different, which is why we offer styles for every body.</p>
-                                </div>
-    
-                            </div>
-                            <div class="left-content mb-5 d-flex">
-                                <img src="img/logo-icon/image 14.png" alt="" >
-                                <div class="content-inner">
-                                    <h3>Find the Perfect Fit</h3>
-                                    <p>Everybody is different, which is why we offer styles for every body.</p>
-                                </div>
-    
-                            </div>
-
-                        </div>
-                       
-                    </div>
-                    <div class="col-md-8 text-center align-items-center">
-                        <div class="right-img">
-                            <img src="img/logo-icon/XMLID 1.png" alt="" class="img-fluid" width="500px">
-                        </div>
-                    </div>
-
-                </div>
         </div>
       </section>
+    <!-- Product-Section-End -->
 
 
-      <section class="contact-from mt-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 contact-img text-center "><img src="img/logo-icon/contact-img.png" alt="" class=""></div>
+     <!-- About-Section-Start -->
+     <section id="about-us">
 
-            <div class="col-md-6 mt-5 mb-5">
-              <div class="contact-area ">
-                <h1>CONTACT US</h1>
-                <form action="" class="">
-                  <input type="text" placeholder="Name" class="form-control custom-style mt-2">
-                  <input type="email" placeholder="Email" class="form-control custom-style mt-2">
-                  <textarea class="form-control custom-style mt-2" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <div class="container">
+          
+              <div class="row reverse p-3">
+                  <div class="col-md-4 ">
 
-                  <button type="submit" class="btn btn-custom btn-primary form-control mt-4">Submit</button>
+                      <div class="left-content-wrapper">
 
-                </form>
+                        <div class="row d-flex align-items-center justify-content-center">
+
+                          <div class="col-md-2">
+                            <img src="img/logo-icon/image 12.png" alt="" width="55px" >
+                          </div>
+
+                          <div class="col-md-10">
+                            <div class="content-inner">
+                              <h3>Find the Perfect Fit</h3>
+                              <p>Everybody is different, which is why we offer styles for every body.</p>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="row d-flex align-items-center justify-content-center">
+
+                          <div class="col-md-2">
+                            <img src="img/logo-icon/image 13.png" alt="" width="55px" >
+                          </div>
+
+                          <div class="col-md-10">
+                            <div class="content-inner">
+                              <h3>Find the Perfect Fit</h3>
+                              <p>Everybody is different, which is why we offer styles for every body.</p>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="row d-flex align-items-center justify-content-center">
+
+                          <div class="col-md-2">
+                            <img src="img/logo-icon/image 14.png" alt="" width="55px" >
+                          </div>
+
+                          <div class="col-md-10">
+                            <div class="content-inner">
+                              <h3>Find the Perfect Fit</h3>
+                              <p>Everybody is different, which is why we offer styles for every body.</p>
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+                     
+                  </div>
+                  <div class="col-md-8 text-center align-items-center mb-5">
+                      <div class="right-img">
+                          <img src="img/logo-icon/XMLID 1.png" alt="" class="img-fluid" width="500px">
+                      </div>
+                  </div>
+
               </div>
+      </div>
+    </section>
+    <!-- About-Section-End -->
+
+
+    <!-- Contact-Section-Start -->
+    <section id="contact" class="contact-from mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 contact-img text-center "><img src="img/logo-icon/contact-img.png" alt="" class=""></div>
+
+          <div class="col-md-6 mt-5 mb-5">
+            <div class="contact-area ">
+              <h1>CONTACT US</h1>
+              <form action="" class="">
+                <input type="text" placeholder="Name" class="form-control custom-style mt-2">
+                <input type="email" placeholder="Email" class="form-control custom-style mt-2">
+                <textarea class="form-control custom-style mt-2" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                <button type="submit" class="btn btn-custom btn-primary form-control mt-4">Submit</button>
+
+              </form>
             </div>
-
           </div>
+
         </div>
-
-
-      </section>
+      </div>
+    </section>
+    <!-- Contact-Section-End -->
 
       <footer>
           <p class="text-center mt-5">©2020. Penguine Fashion. All rights reserved. Sofia, Bulgaria.</p>
@@ -265,9 +288,7 @@
 
     <!-- Popper js -->
     <script src="js/popper-js/popper.js"></script>
-
     <!-- Bootstrap js -->
     <script src="js/bootstrap-js/bootstrap.min.js"></script>
-
 </body>
 </html>
