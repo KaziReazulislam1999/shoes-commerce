@@ -1,143 +1,133 @@
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
 
-h1,h2{
-    font-family: 'Bebas Neue', cursive;
-    color: #363958;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #3E3E3E;
-}
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-}
-
-.menu-bg{
-    position: relative;
-    margin-left: 100px;
-    top:-8px;
+.menu-bg {
+  position: relative;
+  margin-left: 100px;
+  top: -8px;
 }
 
 /* button-start*/
 
-.btn-custom{
-    font-size: 13px;
-    font-weight:500;
-    
-    background-color: #3b4ce6 !important;
-    color: #fff;
-    border-radius: 10px;
-    
+.btn-custom {
+  font-size: 13px;
+  font-weight: 500;
+
+  background-color: #3b4ce6 !important;
+  color: #fff;
+  border-radius: 10px;
 }
-.btn-custom:hover{
-       background-color: #1f34f0;
+.btn-custom:hover {
+  background-color: #1f34f0;
 }
 /* button-end*/
 
-
 /* banner-top-section-start */
 
-header, .banner-top{
-    background-color: #FFF9F4;
+header,
+.banner-top {
+  background-color: #fff9f4;
 }
 
 .nike-content {
-    color: #FA804C;
+  color: #fa804c;
 }
 
-.banner-content-area h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 70px;
-    font-weight: 600;
+.banner-content-area h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  font-weight: 600;
 }
 /* banner-top-section-end */
 
-
 /* casual-shoes-section-start */
 
-.casual-shoes,.formal-shoes{
-    margin-top: 100px;
+.casual-shoes,
+.formal-shoes {
+  margin-top: 100px;
 }
 
-.card-img-top{
-    background-color: none;
-    border-radius: 20px;
-   
+.card-img-top {
+  background-color: #f8e4e4;
+  border-radius: 20px;
 }
-.border-radius-custom{
-   border-radius: 90px;
-   background-color: rgb(243, 240, 240);
-   
+.border-radius-custom {
+  border-radius: 90px;
+  background-color: rgb(243, 240, 240);
 }
 .card {
-    border: none;
+  border: none;
 }
-.card-footer{
-    border-top: none;
+.card-footer {
+  border-top: none;
 }
-.card-footer h3{
-    color: #FA804C;
-    font-size: 35px;
-    font-weight:bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-footer h3 {
+  color: #fa804c;
+  font-size: 35px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* casual-shoes-section-start */
-
 
 /* exchange-section-start */
 
-#about-us{
-    margin-top: 100px;
+#about-us {
+  margin-top: 100px;
 }
 
-.left-content img{
-    padding-right: 30px;
-    height: 60px;
-    width: 80px;
+.left-content img {
+  padding-right: 30px;
+  height: 60px;
+  width: 80px;
 }
 
 /* exchange-section-end */
 
-
 /* contact-section-start */
 
-.contact-img img:hover{
-    transform: rotate(360deg);
-    transition: 2s;
+.contact-img img:hover {
+  transform: rotate(360deg);
+  transition: 2s;
 }
 
-.custom-style{
-    border-radius: 20px;
+.custom-style {
+  border-radius: 20px;
 }
 /* contact-section-end */
 
-  
-  /* about-section-start */
-  .content-inner{
-      padding:0px 20px 0px 20px;
-  }
-  /* about-section-end */
+/* about-section-start */
+.content-inner {
+  padding: 0px 20px 0px 20px;
+}
+/* about-section-end */
 
-  @media (max-width: 768px) {
-    .reverse {
-      flex-direction: column-reverse;
-      
-    }
+@media (max-width: 768px) {
+  .reverse {
+    flex-direction: column-reverse;
   }
+}
 
-  @media (max-width: 768px) {
-    .left-content-wrapper {
-     text-align: center;
-      
-    }
+@media (max-width: 768px) {
+  .left-content-wrapper {
+    text-align: center;
   }
-  @media (max-width: 768px) {
-    .menu-bg img{
-        display: none;
-      
-    }
+}
+@media (max-width: 768px) {
+  .menu-bg img {
+    display: none;
   }
-
+}
