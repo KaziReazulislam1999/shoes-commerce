@@ -132,4 +132,10 @@ header, .banner-top{
       
     }
   }
+  @media (max-width: 768px) {
+    .menu-bg img{
+        display: none;
+      
+    }
+  }
 
