@@ -4,12 +4,20 @@ h1,h2{
 }
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
 /* button-start*/
 
 .btn-custom{
     font-size: 13px;
-    font-weight:400;
+    font-weight:500;
+    height: 50px;
+    width: 140px;
     background-color: #3b4ce6 !important;
     color: #fff;
     border-radius: 10px;
@@ -20,17 +28,20 @@ p{
 }
 /* button-end*/
 
+
+/* banner-top-section-start */
+
 .nike-content {
     color: #FA804C;
 }
-.banner-content-area{
-    padding: 90px;
-}
+
 .banner-content-area h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 70px;
     font-weight: 600;
 }
+/* banner-top-section-end */
+
 
 /* casual-shoes-css-section-start */
 
@@ -41,6 +52,11 @@ p{
 .card-img-top{
     background-color: #ebe6e6;
     border-radius: 20px;
+   
+}
+.border-radius-custom{
+   border-radius: 90px;
+   background-color: rgb(243, 240, 240);
    
 }
 .card {
